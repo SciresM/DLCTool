@@ -1,0 +1,5 @@
+Option:
+  MediaFootPadding: true
+  EnableCrypt: false
+SystemControlInfo:
+  SaveDataSize: $(SaveSize)K

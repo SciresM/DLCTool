@@ -1,0 +1,8 @@
+BasicInfo:
+  CompanyCode             : 00
+  ProductCode             : CTR-M-{product_code}-{content_index}
+  ContentType             : Application # Application / SystemUpdate / Manual / Child / Trial
+
+TitleInfo:
+  UniqueId                : 0x{unique_id}
+  Category                : AddOnContents # Application / SystemApplication / Applet / Firmware / Base / DlpChild / Demo / Contents / SystemContents / SharedContents / AddOnContents / Patch / AutoUpdateContents
