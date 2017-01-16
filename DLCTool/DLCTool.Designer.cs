@@ -123,7 +123,6 @@
             this.MTB_ProductCode.Location = new System.Drawing.Point(304, 71);
             this.MTB_ProductCode.Mask = "AAAA";
             this.MTB_ProductCode.Name = "MTB_ProductCode";
-            this.MTB_ProductCode.PromptChar = 'A';
             this.MTB_ProductCode.Size = new System.Drawing.Size(36, 20);
             this.MTB_ProductCode.TabIndex = 8;
             // 
@@ -141,7 +140,6 @@
             this.MTB_ContentIndex.Location = new System.Drawing.Point(348, 71);
             this.MTB_ContentIndex.Mask = "00";
             this.MTB_ContentIndex.Name = "MTB_ContentIndex";
-            this.MTB_ContentIndex.PromptChar = '0';
             this.MTB_ContentIndex.Size = new System.Drawing.Size(19, 20);
             this.MTB_ContentIndex.TabIndex = 10;
             // 

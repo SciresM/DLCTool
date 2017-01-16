@@ -165,8 +165,8 @@ namespace DLCTool
             var dlc_str = File.ReadAllText("dlc.rsf");
             dlc_str =
                 dlc_str.Replace("{unique_id}", unique_id.ToString("X5"))
-                    .Replace("{product_code}", MTB_ProductCode.Text)
-                    .Replace("{content_index}", MTB_ContentIndex.Text);
+                    .Replace("{product_code}", MTB_ProductCode.Text.Replace("_", "A"))
+                    .Replace("{content_index}", MTB_ContentIndex.Text.Replace("_", "0"));
             File.WriteAllText("dlc.rsf", dlc_str);
 
             File.Copy(Path.Combine(root_dir, "icon.bin"), "icon.bin");
